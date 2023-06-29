@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://i.pinimg.com/originals/52/d9/b3/52d9b35181578642c823f63a457fe99b.gif");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.b1 {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 10px 25px;
+  color: white;
+  background-color: #c291f2;
+  text-align: center;
+  cursor: pointer;
+}
+
+.hero-text button:hover {
+  background-color: #555;
+  color: white;
+}
+* {	
+	margin:0;
+	padding:0;
+}
+
+body::before {
+		content:""; /* required for ::before */
+		position:fixed; /* don't scroll with page */
+		z-index:-100; /* place behind elements on page */
+		width:100%;
+		height:100%;
+		background-color:#66e8d2;
+		background-image: 
+		radial-gradient(circle farthest-side at top right, transparent, #9a35f2), radial-gradient(ellipse farthest-corner at 0% 100%, transparent, #FF00A0);
+		animation:bg-change 3s infinite;
+}
+
+@keyframes bg-change {
+	50%, 100% {
+		filter:hue-rotate(0deg);
+	}
+	50% {
+		filter:hue-rotate(-45deg);
+	}
+}
+
+
+</style>
+</head>
+<body>
+
+<div class="hero-image">
+  <div class="hero-text">
+    <h1 style="font-size:45px">MY PERSONAL INFO</h1><br>
+    <p>JIANNE COREEN OPLIMO   8-EINSTEIN</p><br>
+    <a class="b1" href="file:///C:/Users/User/Downloads/OPLIMO%20WEBPAGE/My%20Homepage.html" target="_blank">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a class="b1" href="file:///C:/Users/User/Downloads/OPLIMO%20WEBPAGE/My%20Portfolio.html" target="_blank">Portfolio</a>
+  </div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<center>
+<img width=1200px" height="900px" src="C:\Users\User\Downloads\FAVORITE THINGS THAT I OWN (2).png">
+</center> 
+</body>
+</html>
